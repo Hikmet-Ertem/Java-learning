@@ -26,7 +26,7 @@ public class C10 {
 		
 		String isim=scan.next();
 		
-		System.out.println(isim.length() == 3 ? isim.charAt(0) == isim.charAt(1) || isim.charAt(0) == isim.charAt(2) ?  "isim ayni karakterlere sahiptir: "  :  "Dizenin benzersiz karakterleri var" : "girdiðiniz isim hatalidir" );
+		System.out.println(isim.length() == 3 ? isim.charAt(0) == isim.charAt(1) || isim.charAt(0) == isim.charAt(2) ?  "isim ayni karakterlere sahiptir : "  :  "Dizenin benzersiz karakterleri var" : "girdiðiniz isim hatalidir" );
 		
 		
 
