@@ -1,5 +1,9 @@
 package GenelTekrar;
 
+import java.util.Scanner;
+
+import javax.swing.Spring;
+
 public class C12 {
 
 	public static void main(String[] args) {
@@ -13,6 +17,24 @@ public class C12 {
 		 * 
 		 * OUTPUT : fafafa
 		 */
+		
+		Scanner scan=new Scanner(System.in);
+		System.out.println("Lütfen bir isim giriniz: ");
+		
+		String isim=scan.next();
+		
+		if (isim.length()>=2 ) {
+			System.out.println(isim.substring(isim.length()-2, isim.length()) +isim.substring(isim.length()-2, isim.length())+ isim.substring(isim.length()-2, isim.length()));
+		} else {
+			
+			System.out.println("Uzun isim giriniz");
+
+		}
+			
+			
+		}
+		
+		
 	}
 
-}
+
