@@ -4,6 +4,7 @@ import java.util.Scanner;
 
 public class Ders5_Scanner2 {
 
+	@SuppressWarnings("resource")
 	public static void main(String[] args) {
 		// 4 - ) Kullanici tarafindan girilen bir sayinin mutlak degerini
 		//	   yazdirmak icin bir program yazin.
