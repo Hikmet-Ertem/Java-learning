@@ -12,26 +12,25 @@ public class Githup_1 {
 		 * number:6 factorial:1*2*3*4*5*6=720 output ---> 720
 		 */
 
-		Scanner reader = new Scanner(System.in);
-		System.out.print("Bir Sayý Girin:");
-
-		int num = reader.nextInt();
-		long faktoriyel = 1;
-		for (int i = 1; i <= num; ++i) {
-			faktoriyel *= i;
+		Scanner scan=new Scanner(System.in);
+		System.out.println("Bir tam sayý giriniz");
+		
+		int sayi=scan.nextInt();
+		
+		int faktoriyel=1;
+		
+		System.out.print(sayi+ "!=");
+		
+		for (int i =sayi; i > 1; i--) {
+			
+			faktoriyel*=i;
+			
+			System.out.print(i + "*");
+					
 		}
-		System.out.printf("%d Sayýsýnýn Faktöriyeli = %d \n", num, faktoriyel);
-
-		/*
-		 * Scanner scan=new Scanner(System.in);
-		 * System.out.println("Lütfen bir sayi giriniz");
-		 * 
-		 * int sayi=scan.nextInt();
-		 * 
-		 * if (sayi<0) { System.out.println("|" +sayi+"|= " +(sayi*(-1))); }else {
-		 * 
-		 * System.out.println("|" +sayi+"|= " +sayi); }
-		 */
+		
+		System.out.print("1="+ faktoriyel );
+		
 	}
 
 }
