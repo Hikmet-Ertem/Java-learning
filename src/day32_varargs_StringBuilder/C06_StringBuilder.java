@@ -2,8 +2,9 @@ package day32_varargs_StringBuilder;
 
 public class C06_StringBuilder {
 
+	@SuppressWarnings("unused")
 	public static void main(String[] args) {
-
+		
 		String str = "Ali Can";
 		
 		String str2= new String("Veli Cem");
@@ -15,9 +16,11 @@ public class C06_StringBuilder {
 		
 		System.out.println(sb); 
 		
-		sb.toString().toUpperCase();
+		String sbBuyukHarf = sb.toString().toUpperCase();
 		
 		System.out.println(sb); 
+		
+		
 
 	}
 
