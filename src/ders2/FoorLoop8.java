@@ -8,16 +8,39 @@ public class FoorLoop8 {
 		// Kullanıcadan bir String isteyin ve Stringi terse çeviren bir method yazın
 
 		Scanner scan=new Scanner(System.in);
-		System.out.println("Lütfen ters yazılabilecek bir yazı yazınız.");
+		System.out.println("Lütfen tersinden yazdıracak bir yazı giriniz.");
 		
 		String str=scan.next();
 		
-		for (int i = str.length()-1; i >0; i--) {
+		System.out.println(tersineCevir(str));;
+		
 			
+	}
+
+	public static String tersineCevir(String str) {
+		String tersStr="";
+		
+		for ( int i = str.length()-1; i >0; i--)  {
+			
+			tersStr+=str;
 			
 			
 			
 		}
-	}
+		
+			
+			
+			
+			return tersStr;
+		}
+		
+		
+	
 
-}
+	
+		
+		
+	}
+	
+
+
