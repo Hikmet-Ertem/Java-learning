@@ -16,6 +16,11 @@ public class Muhasebe extends Personel {
 		clsn1.isim="Ali";
 		System.out.println(clsn1.soyisim);
 		
+		//Javada her class oluþturulduðunda otomatik olarak
+		//default constructor oluþtuðu gibi
+		//Child class da oluþturulan herbir constroctorun ilk satýrýnda
+		//gizli super() oluþturur.
+		
 	
 		
 		
