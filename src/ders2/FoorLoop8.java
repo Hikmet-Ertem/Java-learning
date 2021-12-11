@@ -9,37 +9,29 @@ public class FoorLoop8 {
 
 		Scanner scan=new Scanner(System.in);
 		System.out.println("Lütfen tersinden yazdıracak bir yazı giriniz.");
+		String str=scan.nextLine();
 		
-		String str=scan.next();
+		System.out.println(tersineCevir(str));
 		
-		System.out.println(tersineCevir(str));;
-		
-			
+			scan.close();
 	}
 
 	public static String tersineCevir(String str) {
 		String tersStr="";
 		
-		for ( int i = str.length()-1; i >0; i--)  {
+		for ( int i = str.length()-1; i >=0; i--)  {
 			
-			tersStr+=str;
+	
 			
-			
+			tersStr+=str.substring(i, i+1);
 			
 		}
 		
-			
-			
-			
+				
 			return tersStr;
 		}
 		
-		
-	
-
-	
-		
-		
+				
 	}
 	
 
