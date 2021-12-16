@@ -1,9 +1,11 @@
 package day42_AbstractClasses;
 
-public class Isci {
+public class Isci extends Muhasebe {
 
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+
+	public void mesai() {
+		System.out.println("Her iscinin mesai saatleri belli olmali. Imza Isci");
+		
 
 	}
 

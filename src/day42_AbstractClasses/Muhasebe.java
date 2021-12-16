@@ -1,10 +1,12 @@
 package day42_AbstractClasses;
 
-public class Muhasebe {
+public class Muhasebe extends Personel{
 
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+	public void maas() {
+		System.out.println("Sirkette her calisanin ");
+		System.out.println("Sirketteki her calisanin maasi olmali. imza: Muhasebe");
+	}
 
 	}
 
-}
+
